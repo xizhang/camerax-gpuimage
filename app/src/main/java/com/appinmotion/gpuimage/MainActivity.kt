@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
         converter = YuvToRgbConverter(this)
 
         // Init views.
-        addButtons()
         buttonContainer = findViewById(R.id.button_container)
+        addButtons()
         gpuImageView = findViewById(R.id.gpu_image_view)
 
         // The activity is locked to portrait mode. We only need to correct for sensor rotation.
